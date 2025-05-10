@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Philippine College of Northwestern Luzon</title>
+    <!-- Bootstrap 3 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#home">PCNL</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#programs">Academic Programs</a></li>
+                    <li><a href="#faculty">Faculty & Staff</a></li>
+                    <li><a href="#announcements">Announcements</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="jumbotron">
+        <div class="container text-center">
+            <h1>Philippine College of Northwestern Luzon</h1>
+            <p>Excellence in Education, Leadership in Service</p>
+            <div class="carousel slide" id="myCarousel" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="https://via.placeholder.com/1200x400?text=PCNL+Campus" alt="PCNL Campus">
+                        <div class="carousel-caption">
+                            <h3>Beautiful Campus</h3>
+                            <p>Our state-of-the-art facilities</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="https://via.placeholder.com/1200x400?text=Students+Learning" alt="Students Learning">
+                        <div class="carousel-caption">
+                            <h3>Quality Education</h3>
+                            <p>Dedicated to student success</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="https://via.placeholder.com/1200x400?text=Graduation+Ceremony" alt="Graduation">
+                        <div class="carousel-caption">
+                            <h3>Successful Graduates</h3>
+                            <p>Join our alumni network</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="container">
+        <div class="page-header">
+            <h2 class="text-center">About PCNL</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Our History</h3>
+                <p>Founded in 1990, the Philippine College of Northwestern Luzon has been a beacon of quality education in the region. Starting with just 50 students, we've grown to serve thousands of aspiring professionals each year.</p>
+                <p>Our commitment to academic excellence and community service has made us one of the most respected institutions in Northwestern Luzon.</p>
+            </div>
+            <div class="col-md-6">
+                <h3>Mission & Vision</h3>
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Our Mission</a>
+                            </h4>
+                        </div>
+                        <div id="collapse1" class="panel-collapse collapse in">
+                            <div class="panel-body">To provide accessible, quality education that develops competent professionals and responsible citizens committed to the service of humanity.</div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Our Vision</a>
+                            </h4>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse">
+                            <div class="panel-body">To be the leading educational institution in Northwestern Luzon recognized for academic excellence, research, and community engagement.</div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Core Values</a>
+                            </h4>
+                        </div>
+                        <div id="collapse3" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <ul>
+                                    <li>Excellence</li>
+                                    <li>Integrity</li>
+                                    <li>Service</li>
+                                    <li>Innovation</li>
+                                    <li>Respect</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academic Programs Section -->
+    <section id="programs" class="container">
+        <div class="page-header">
+            <h2 class="text-center">Academic Programs</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="https://via.placeholder.com/300x200?text=Business" alt="Business Programs">
+                    <div class="caption">
+                        <h3>Business Administration</h3>
+                        <ul>
+                            <li>Bachelor of Science in Business Administration</li>
+                            <li>Major in Marketing</li>
+                            <li>Major in Financial Management</li>
+                            <li>Major in Human Resource Development</li>
+                        </ul>
+                        <p><a href="#" class="btn btn-primary" role="button">Learn More</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="https://via.placeholder.com/300x200?text=Education" alt="Education Programs">
+                    <div class="caption">
+                        <h3>Education</h3>
+                        <ul>
+                            <li>Bachelor of Elementary Education</li>
+                            <li>Bachelor of Secondary Education</li>
+                            <li>Major in English</li>
+                            <li>Major in Mathematics</li>
+                            <li>Major in Science</li>
+                        </ul>
+                        <p><a href="#" class="btn btn-primary" role="button">Learn More</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="https://via.placeholder.com/300x200?text=IT" alt="IT Programs">
+                    <div class="caption">
+                        <h3>Information Technology</h3>
+                        <ul>
+                            <li>Bachelor of Science in Information Technology</li>
+                            <li>Computer Programming</li>
+                            <li>Network Administration</li>
+                            <li>Web Development</li>
+                        </ul>
+                        <p><a href="#" class="btn btn-primary" role="button">Learn More</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faculty & Staff Section -->
+    <section id="faculty" class="container">
+        <div class="page-header">
+            <h2 class="text-center">Faculty & Staff</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Dr. Maria Santos</h3>
+                    </div>
+                    <div class="panel-body">
+                        <img src="https://via.placeholder.com/150x150?text=Dr.+Maria" class="img-circle center-block" alt="Dr. Maria Santos">
+                        <p class="text-center"><strong>Dean, College of Business</strong></p>
+                        <p>PhD in Business Administration, 20 years of teaching experience, published author in business journals.</p>
+                        <button class="btn btn-info btn-block" data-toggle="modal" data-target="#mariaModal">View Profile</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Prof. Juan Dela Cruz</h3>
+                    </div>
+                    <div class="panel-body">
+                        <img src="https://via.placeholder.com/150x150?text=Prof.+Juan" class="img-circle center-block" alt="Prof. Juan Dela Cruz">
+                        <p class="text-center"><strong>Chair, IT Department</strong></p>
+                        <p>Master's in Computer Science, 15 years in IT industry, specializes in web development and cybersecurity.</p>
+                        <button class="btn btn-info btn-block" data-toggle="modal" data-target="#juanModal">View Profile</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Dr. Ana Reyes</h3>
+                    </div>
+                    <div class="panel-body">
+                        <img src="https://via.placeholder.com/150x150?text=Dr.+Ana" class="img-circle center-block" alt="Dr. Ana Reyes">
+                        <p class="text-center"><strong>Dean, College of Education</strong></p>
+                        <p>PhD in Education, curriculum development specialist, 25 years in teacher education.</p>
+                        <button class="btn btn-info btn-block" data-toggle="modal" data-target="#anaModal">View Profile</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faculty Modals -->
+    <div class="modal fade" id="mariaModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Dr. Maria Santos</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="https://via.placeholder.com/200x200?text=Dr.+Maria" class="img-responsive center-block" alt="Dr. Maria Santos">
+                    <h3>Dean, College of Business</h3>
+                    <p><strong>Education:</strong> PhD in Business Administration, University of the Philippines</p>
+                    <p><strong>Specialization:</strong> Strategic Management, Marketing</p>
+                    <p><strong>Publications:</strong> 15 journal articles, 3 books</p>
+                    <p><strong>Contact:</strong> msantos@pcnl.edu.ph</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="juanModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Prof. Juan Dela Cruz</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="https://via.placeholder.com/200x200?text=Prof.+Juan" class="img-responsive center-block" alt="Prof. Juan Dela Cruz">
+                    <h3>Dean, IT Department</h3>
+                    <p><strong>Education:</strong> MS in Computer Science, Ateneo de Manila University</p>
+                    <p><strong>Specialization:</strong> Web Development, Cybersecurity</p>
+                    <p><strong>Industry Experience:</strong> 10 years as Senior Developer</p>
+                    <p><strong>Contact:</strong> jdelacruz@pcnl.edu.ph</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="anaModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Dr. Ana Reyes</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="https://via.placeholder.com/200x200?text=Dr.+Ana" class="img-responsive center-block" alt="Dr. Ana Reyes">
+                    <h3>Dean, College of Education</h3>
+                    <p><strong>Education:</strong> PhD in Education, Philippine Normal University</p>
+                    <p><strong>Specialization:</strong> Curriculum Development, Educational Psychology</p>
+                    <p><strong>Awards:</strong> Outstanding Educator Award 2018</p>
+                    <p><strong>Contact:</strong> areyes@pcnl.edu.ph</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Announcements Section -->
+    <section id="announcements" class="container">
+        <div class="page-header">
+            <h2 class="text-center">Announcements</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Enrollment for Second Semester 2025</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>Enrollment for the second semester of AY 2024-2025 will begin on November 15, 2024. Please prepare all necessary documents.</p>
+                        <p><small class="text-muted">Posted: October 1, 2024</small></p>
+                        <button class="btn btn-default btn-sm" data-toggle="collapse" data-target="#enrollDetails">Read More</button>
+                        <div id="enrollDetails" class="collapse">
+                            <p>New students must bring original copies of their Form 138, Good Moral Certificate, and 2x2 ID pictures. Returning students need to settle their accounts before enrollment.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Foundation Week Celebration</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>Join us for our annual Foundation Week celebration from December 5-9, 2024. Various academic and cultural activities are prepared.</p>
+                        <p><small class="text-muted">Posted: September 25, 2024</small></p>
+                        <button class="btn btn-default btn-sm" data-toggle="collapse" data-target="#foundationDetails">Read More</button>
+                        <div id="foundationDetails" class="collapse">
+                            <p>Activities include: Academic competitions, Cultural shows, Alumni homecoming, Sports fest, and Community outreach programs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Scholarship Applications</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>Applications for various scholarships (CHED, DOST, Institutional) are now open until November 30, 2024.</p>
+                        <p><small class="text-muted">Posted: October 5, 2024</small></p>
+                        <button class="btn btn-default btn-sm" data-toggle="collapse" data-target="#scholarDetails">Read More</button>
+                        <div id="scholarDetails" class="collapse">
+                            <p>Requirements include: Application form, Latest grades, Certificate of good moral character, Proof of family income, and Recommendation letters.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Research Colloquium 2025</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p>The annual Research Colloquium will be held on January 20-22, 2025. Submission of abstracts is until December 15, 2024.</p>
+                        <p><small class="text-muted">Posted: September 30, 2024</small></p>
+                        <button class="btn btn-default btn-sm" data-toggle="collapse" data-target="#researchDetails">Read More</button>
+                        <div id="researchDetails" class="collapse">
+                            <p>Themes: Innovation in Education, Sustainable Business Practices, Emerging Technologies, and Social Development Studies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <div class="page-header">
+            <h2 class="text-center">Contact Us</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject:</label>
+                        <input type="text" class="form-control" id="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea class="form-control" rows="5" id="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success">Submit</button>
+                </form>
+                <div id="formResponse" class="alert" style="display:none; margin-top:20px;"></div>
+            </div>
+            <div class="col-md-6">
+                <h3>Location</h3>
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.432237112911!2d120.3649533787455!3d16.32280294415501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33917765554a3123%3A0x7e7b566b26b1921f!2sPhilippine%20College%20of%20Northwestern%20Luzon!5e1!3m2!1sen!2sph!4v1746587723996!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <h3>Contact Information</h3>
+                <address>
+                    <strong>Philippine College of Northwestern Luzon</strong><br>
+                    G Taberna Road,San Antonio Sur<br>
+                    Northwestern Luzon, Philippines 2506<br>
+                    <abbr title="Phone">P:</abbr> (075) 123-4567<br>
+                    <abbr title="Email">E:</abbr> pcnlagoo@gmail.com
+                </address>
+                <h3>Social Media</h3>
+                <div class="social-media">
+                    <a href="https://facebook.com/pcnl" class="btn btn-social-icon btn-facebook">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="container-fluid text-center bg-primary">
+        <div class="row">
+            <div class="col-sm-4">
+                <h3>Quick Links</h3>
+                <ul class="list-unstyled">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#programs">Programs</a></li>
+                    <li><a href="#faculty">Faculty</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-4">
+                <h3>Contact</h3>
+                <address>
+                    <strong>PCNL</strong><br>
+                    123 Education Avenue<br>
+                    Northwestern Luzon, PH 2500<br>
+                    <abbr title="Phone">P:</abbr> (075) 123-4567
+                </address>
+            </div>
+            <div class="col-sm-4">
+                <h3>Connect With Us</h3>
+                <a href="https://facebook.com/pcnl" class="btn btn-social-icon btn-facebook">
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <p class="text-muted">&copy; 2025 Philippine College of Northwestern Luzon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap 3 JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>

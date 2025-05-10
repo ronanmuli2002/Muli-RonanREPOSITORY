@@ -1,0 +1,144 @@
+/* General Styles */
+body {
+    padding-top: 50px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.jumbotron {
+    background-color: #003366;
+    color: white;
+    margin-bottom: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1200x400?text=PCNL+Background');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.page-header {
+    margin-bottom: 40px;
+    border-bottom: 2px solid #003366;
+}
+
+/* Navbar Styles */
+.navbar-inverse {
+    background-color: #003366;
+    border-color: #002244;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #ffcc00;
+}
+
+/* Carousel Styles */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Panel Styles */
+.panel-primary > .panel-heading {
+    background-color: #003366;
+    border-color: #002244;
+}
+
+.panel-default > .panel-heading {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Thumbnail Styles */
+.thumbnail {
+    transition: all 0.3s ease;
+}
+
+.thumbnail:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+/* Faculty Profile Images */
+.img-circle {
+    border: 3px solid #003366;
+    margin-bottom: 15px;
+}
+
+/* Contact Form Styles */
+#contactForm {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 30px 0;
+}
+
+footer a {
+    color: #ffcc00;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Social Media Icons */
+.btn-social-icon {
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    color: white;
+}
+
+.btn-facebook {
+    background-color: #3b5998;
+}
+
+.btn-twitter {
+    background-color: #1da1f2;
+}
+
+.btn-instagram {
+    background-color: #e1306c;
+}
+
+.btn-youtube {
+    background-color: #ff0000;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .jumbotron {
+        padding: 60px 0;
+    }
+    
+    section {
+        padding: 40px 0;
+    }
+    
+    .navbar-brand {
+        font-size: 18px;
+    }
+}
